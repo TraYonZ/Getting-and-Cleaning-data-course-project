@@ -1,0 +1,14 @@
+#Description
+
+The code Run_analysis.R do the following steps:
+
+1º) Load the packages and get the data.
+2º) We take only the columns with the mean and standard deviation measures. Then we give them the correct names.
+3º) Finally, we generate a new dataset with all the average measures for each subject and activity type. The output file is called TidyData.txt.
+
+#Variables
+
+a) x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+b) train, trainActivities and trainSubjects merge the previous datasets to further analysis.
+c) features contains the correct names
+d) TidyData.txt contains the relevant averages which will be later stored in a .txt file.
